@@ -9,4 +9,31 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --text-color: rgb(53 52 48 / 1);
+  --h2-color-transparent: rgb(53 52 48 / 0.4);
+  --h2-color: rgb(53 52 48 / 1);
+  --h3-color: rgb(53 52 48 / 1);
+  --accent-block-color: rgb(255 141 203 / 1);
+  --title-color: #ffc2e6;
+  --title-shadow-color: rgb(255 141 203 / 1);
+  --background-color: rgb(255 241 247 / 1);
+  background-image: url(../images/cover-image-light.png);
+}
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --text-color: rgb(53 52 48 / 1);
+    --h2-color-transparent: rgb(53 52 48 / 0.4);
+    --h2-color: rgb(53 52 48 / 1);
+    --h3-color: rgb(53 52 48 / 1);
+    --accent-block-color: rgb(255 141 203 / 1);
+    --title-color: #ffc2e6;
+    --title-shadow-color: rgb(255 141 203 / 1);
+    --background-color: rgb(255 241 247 / 1);
+  }
+}
+
+.page.theme_light .header-decoration {
+  display: none;
 }
