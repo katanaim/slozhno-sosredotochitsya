@@ -78,7 +78,7 @@ h4.title-decor {
   justify-self: end;
 }
 
-/* надо фону сделать полупрозрачную накидку */
+
 
 .header::before {
   content: '';
