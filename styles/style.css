@@ -16,6 +16,7 @@
   position: relative;
   inline-size: 100%;
   padding: 0 10px;
+  min-height: 100vh;
 }
 
 .header-decoration {
