@@ -352,6 +352,9 @@ h3.title-decor {
 
 .main__article-picture {
   inline-size: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .main__article-pictures {
@@ -406,11 +409,7 @@ h3.title-decor {
     margin-block-end: -20px;
   }
 
-  .main__article-picture {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  
 }
 
 .footer {

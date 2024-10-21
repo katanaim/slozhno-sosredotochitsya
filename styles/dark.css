@@ -18,12 +18,11 @@
   --title-color: rgb(219 0 255 / 1);
   --title-shadow-color: rgb(255 0 112 / 1);
   --background-color: rgb(0 0 40 / 1);
+  background-image: url(../images/cover-image-dark.png);
 }
 
 .page.theme_dark .header-decoration {
   display: block;
 }
 
-.page.theme_dark{
-  background-image: url(../images/cover-image-dark.png);
-}
+
