@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --text-color: rgb(53 52 48 / 1);
-  --h2-color-transparent: rgb(53 52 48 / 0.4);
+  --button-outline: rgb(53 52 48 / 0.4);
   --h2-color: rgb(53 52 48 / 1);
   --h3-color: rgb(53 52 48 / 1);
   --accent-block-color: rgb(255 141 203 / 1);
@@ -32,7 +32,7 @@
   
   :root {
     --text-color: rgb(53 52 48 / 1);
-    --h2-color-transparent: rgb(53 52 48 / 0.4);
+    --button-outline: rgb(53 52 48 / 0.4);
     --h2-color: rgb(53 52 48 / 1);
     --h3-color: rgb(53 52 48 / 1);
     --accent-block-color: rgb(255 141 203 / 1);
