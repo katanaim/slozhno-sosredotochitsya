@@ -25,11 +25,11 @@
 }
 
 @media (prefers-color-scheme: light) {
-  
+
   .page {
     background-image: url(../images/cover-image-light.png);
   }
-  
+
   :root {
     --text-color: rgb(53 52 48 / 1);
     --button-outline: rgb(53 52 48 / 0.4);
@@ -39,16 +39,9 @@
     --title-color: #ffc2e6;
     --title-shadow-color: rgb(255 141 203 / 1);
     --background-color: rgb(255 241 247 / 1);
-
   }
 
   .header-decoration {
     display: none;
   }
-  
-
 }
-
-
-
-
